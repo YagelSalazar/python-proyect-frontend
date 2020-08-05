@@ -34,7 +34,7 @@ export const HomeComponent = () => {
                 <form   noValidate autoComplete="off">
                     <TextField id="outlined-basic" label="Correo electrónico" variant="outlined" style={{ backgroundColor: 'white', height: '55px', width: '350px'}}/>
                 </form> 
-                <Button style={{ backgroundColor: '#61BD4F', height:'55px', width:'300px', color:'white', marginLeft:'12px', borderColor:'green' }}>Registrese. ¡Es gratis!</Button>
+                <Button style={{ backgroundColor: '#61BD4F', height: '55px', width: '300px', color: 'white', marginLeft: '12px', borderColor: 'green', textTransform: 'none'}}>Registrese. ¡Es gratis!</Button>
             </div>     
         </div>
     )
