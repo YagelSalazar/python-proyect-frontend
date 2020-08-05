@@ -14,14 +14,14 @@ const useStyles = makeStyles((theme) => ({
     },
 })); 
 
-export const Home = () => {
+export const HomeComponent = () => {
    const classes = useStyles();
     return(
         <div className='home'>
             <div className='navbar'>
                 <img src={Trello} alt='logo' style={{width:'180px'}}/>
-                <a href='/registro' style={{color:'white', paddingLeft:'850px'}}>Iniciar Sesión</a>
-                <Button style={{ color:'#2196F3',backgroundColor:'white'}}>Registrarse</Button>                
+                <a href='/registro' style={{color:'white', paddingLeft:'850px', fontSize:'20px'}}>Iniciar Sesión</a>
+                <Button style={{ color: '#2196F3', width: '115px', backgroundColor: 'white', textTransform: 'none', fontSize: '16px'}}>Registrarse</Button>                
             </div>
             <div className='info'>
                <div style={{paddingRight:'135px'}}>
